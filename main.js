@@ -18,9 +18,9 @@ loadjson("data.json",function(text) {
   basics(data.left);
 })
       // for main div class calling
-// var main=document.queryselector(' .main');
+ var main=document.queryselector('.main');
       // for main div class calling
-var main=document.getElementById("main");
+//var main=document.getElementById("main");
 // element creation
 var left=document.createElement("div");
 // add class name to element
