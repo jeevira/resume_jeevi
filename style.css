@@ -1,0 +1,87 @@
+.main{
+display: flex;
+flex-direction: row;
+}
+.left{
+  width: 25%;
+  background-color: #666;
+  border: 5px solid #000;
+  margin: 5px;
+  padding:6px;
+  /* background-color */
+}
+.right{
+  width: 70%;
+  background-color: #555;
+  border: 5px 4px 5px 4px #fff;
+}
+#name{
+  color: green;
+}
+.left img{
+  border-radius: 60px;
+  border: 5px solid #444;
+}
+/* @media queries(1024,1280,768,480)
+1280-1024 :Desktop
+1024-768 :Tablet(landscape)
+768-480 :Tablet
+480 :mobile landscape(or)smaller device
+
+*/
+/* @media only screen and (min-width=425px){
+ } */
+  @media only screen and (min-width:1024px) and (max-width:1280px) {
+    .main{
+    display: flex;
+    flex-direction: row;
+    }
+    .left{
+      width: 25%;
+      background-color: #666;
+      /* background-color */
+    }
+    .right{
+      width: 70%;
+      background-color: #555;
+}
+  }
+  @media only screen and (min-width:768px) and (max-width:1024px) {
+    .main{
+    display: flex;
+    flex-direction: row;
+    }
+    .left{
+      width: 25%;
+      background-color: #666;
+      /* background-color */
+    }
+    .right{
+      width: 70%;
+      background-color: #808000;
+}
+  }-
+  @media only screen and (min-width:480px) and (max-width:768px) {
+    .main{
+    display: flex;
+    flex-direction: row;
+    }
+    .left{
+      width: 25%;
+      background-color: #666;
+      /* background-color */
+    }
+    .right{
+      width: 70%;
+      background-color: #555;
+}
+  }-
+ @media only screen and (min-width:768px) and (max-width:1024px) {
+
+ }
+ @media only screen and (min-width:480px) and (max-width:768px) {
+
+ }
+ @media only screen and (min-width:480px) {
+   
+ }
